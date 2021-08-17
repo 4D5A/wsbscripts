@@ -1,0 +1,22 @@
+<Configuration>
+  <vGPU>Disable</vGPU>
+  <Networking>Disable</Networking>
+  <ProtectedClient>Enable</ProtectedClient>
+  <PrinterRedirection>Disable</PrinterRedirection>
+  <ClipboardRedirection>Disable</ClipboardRedirection>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>C:\Users\test\desktop\Files</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\desktop\Files</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>C:\Users\test\desktop\SandboxScripts</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\desktop\SandboxScripts</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command></Command>
+  </LogonCommand>
+</Configuration>
